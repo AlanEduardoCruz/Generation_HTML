@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu perfil</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Meu perfil</h1>
@@ -32,6 +32,24 @@
         Meu perfil no Linkedin</a
       >
     </p>
-    <p> Veja meus projetos: <a href="projetos.html">Projetos</a></p>
+
+    <form>
+      
+      <p>Entre em contato comigo</p>
+      <label>Nome:</label>
+      <input id="nome" type="text" name="nome" />
+
+      <label>Email</label>
+      <input id="email" type="email" name="Email" />
+
+      <label>Descrição</label>
+      <input id="texto" type="texto" name="texto" />
+      <br /><br />
+      <button onclick="enviar()">Enviar</button>
+    </form>
+    <p>Veja meus projetos: <a href="projetos.html">Projetos</a></p>
+
+    
+   <script src="./scripts.js"></script>
   </body>
 </html>
